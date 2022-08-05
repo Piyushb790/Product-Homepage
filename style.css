@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Mochiy+Pop+One&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Squada+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+body {
+  height: 100vh;
+  width: 100%;
+  margin-top: 50px;
+  /* overflow: hidden; */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 29px;
+  margin-left: 180px;
+  padding: 15px;
+}
+.nav-item {
+  font-size: 19px;
+  margin-left: 100px;
+}
+
+.active-item {
+  font-family: "Montserrat";
+  font-size: 25px;
+  color: #fe5e35;
+  font-weight: 600;
+}
+.nav-item:hover {
+  color: #fe5e35;
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+}
+nav img {
+  margin-left: 60px;
+  height: 48px;
+}
+.intro-section {
+  margin: 50px;
+  display: flex;
+}
+.left-section {
+  margin: 1px;
+}
+.left-section h3 {
+  width: 400px;
+  font-size: 40px;
+}
+.left-section  h3  img {
+  margin: 0 20px;
+}
+.left-section  h1 {
+  font-family: "Bungee";
+  width: 850px;
+
+  font-size: 60px;
+  font-weight: 900;
+}
+.sub-headline img {
+  background-color: #fe5e35;
+  border-radius: 25px;
+  margin: -6px 15px;
+  padding: 4px;
+  height: 17px;
+}
+.sub-headlines {
+  margin: 25px 0px;
+}
+.sub-headlines  h5 {
+  margin: 25px 0;
+  font-size: 17px;
+}
+
+.text {
+  width: 870px;
+  font-size: 18px;
+  color: #acacac;
+  margin: 45px 0;
+}
+
+.action-btns {
+  margin: 25px -10px;
+}
+.action-btns .action-btn {
+  font-size: 20px;
+  padding: 15px 25px;
+  border-radius: 40px;
+  background-color: #fe5e35;
+  color: #fff;
+  margin: 0px 15px;
+  border-style: none;
+  cursor: pointer;
+}
+.right-section {
+  height: auto;
+  width: 500px;
+}
+.headphone-div {
+  margin: auto;
+
+  height: 650px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.headphone-div img:nth-last-child(1) {
+  height: 400px;
+  width: 390px;
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  z-index: -1;
+  margin-top: -100px;
+}
+
+.discount {
+  height: 180px;
+}
+.discount-content {
+  width: 100px;
+  margin-left: -155px;
+  text-align: center;
+}
+.discount-content h4 {
+  font-family: "Bungee";
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+.discount-content h1 {
+  font-family: "Bungee";
+  color: #ffffff;
+  line-height: 80%;
+  font-size: 50px;
+  font-weight: 900;
+}
+.dots {
+  text-align: center;
+  margin-top: -220px;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 20px;
+}
+.yellow-dot {
+  background-color: #fbd104;
+}
+.tomato-dot {
+  background-color: #fe5e35;
+}
+.black-dot {
+  background-color: #000000;
+}
+.action-btns {
+  width: 400px;
+}
+.right-section{
+  height: 500px;
+}
+.right-section .action-btn {
+  margin-top: 50px;
+  margin-left: 38%;
+  font-size: 20px;
+  padding: 15px 25px;
+  border-radius: 40px;
+  background-color: #fe5e35;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+}
