@@ -6,7 +6,7 @@ Deployed link of website &nbsp; ![Project-7](https://img.shields.io/badge/Projec
 
 <br>
 
-# [Link to Project 07](product-homepage07.netlify.app)
+# [Link to Project 07](https://product-homepage07.netlify.app)
 
 <br>
 
